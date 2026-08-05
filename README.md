@@ -1,18 +1,20 @@
 # You know how you get to Carnegie Hall, don't ya?
 
 ## 08/03/2026 - 08/14/2026
-**Two Sum**
-**Contains Duplicate**
-**Valid Anagram**
-**Group Anagrams**
-**Best Time to Buy and Sell Stock**
-**Valid Palindrome**
-**Two Sum II - Input Array Is Sorted**
-**Longest Substring Without Repeating Characters**
-**Valid Parentheses**
-**Daily Temperatures**
-**Binary Search**
-**Search Insert Position**
+| Date | Problem | My Solution | Optimal Solution |
+|---|---|---|---|
+| 08/03 | Two Sum | Brute Force Array | Hash Map |
+| 08/04 | Contains Duplicate | Brute Force Array | Hash Set |
+| 08/05 | Valid Anagram | TBD | Frequency Map |
+| 08/06 | Group Anagrams | TBD | Hash Map + Sorting |
+| 08/07 | Best Time to Buy and Sell Stock | TBD | One Pass |
+| 08/08 | Valid Palindrome | TBD | Two Pointers |
+| 08/09 | Two Sum II - Input Array Is Sorted | TBD | Two Pointers |
+| 08/10 | Longest Substring Without Repeating Characters | TBD | Sliding Window |
+| 08/11 | Valid Parentheses | TBD | Stack |
+| 08/12 | Daily Temperatures | TBD | Monotonic Stack |
+| 08/13 | Binary Search | TBD | Binary Search |
+| 08/14 | Search Insert Position | TBD | Binary Search |
 
 ## 08/15/2026 - 08-19-2026
 **Great Basin NP**
