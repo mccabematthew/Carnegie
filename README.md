@@ -4,7 +4,7 @@
 | Date | Problem | My Solution | Optimal Solution |
 |---|---|---|---|
 | 08/03 | Two Sum | Brute Force Array | Hash Map |
-| 08/04 | Contains Duplicate | Brute Force Array | Hash Set |
+| 08/04 | Contains Duplicate | Sort + Brute Force Array | Hash Set |
 | 08/05 | Valid Anagram | TBD | Frequency Map |
 | 08/06 | Group Anagrams | TBD | Hash Map + Sorting |
 | 08/07 | Best Time to Buy and Sell Stock | TBD | One Pass |
