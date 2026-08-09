@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func sortStrings(s string) string{
+func sortStrings(s string) string {
 	// immutable by length, mutable by value (zero initialized)
 	var counts [26]int
 	for _, c := range s {
@@ -19,7 +19,7 @@ func sortStrings(s string) string{
 	result := make([]byte, 0, len(s)) // byte slice, 0 is start len, len(s) is capacity (prealloc space)
 	for i, count := range counts {
 		for j := 0; j < count; j++ {
-			result = append(result, byte('a'+i)
+			result = append(result, byte('a'+i))
 		}
 	}
 	return string(result)
@@ -34,10 +34,11 @@ func groupAnagrams(strs []string) [][]string {
 
 	// sort alphabetically may be best course in this situation
 	// We can also check every char against every char but that requires work around for dups
-	
-
-	
-
+	groupMap := make(map[string][]string)
+	for _, word := range strs {
+		key := sortStrings(word)
+		groupMap[key] = append(groupMap[key], word)
+	}
 
 	return groups
 }
