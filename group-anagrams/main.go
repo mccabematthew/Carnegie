@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// counting sort, O(k) - beats general sort.Slice
 func sortStrings(s string) string {
 	// immutable by length, mutable by value (zero initialized)
 	var counts [26]int
@@ -28,16 +29,15 @@ func sortStrings(s string) string {
 // Given an arr of string strs, group the anagrams together
 // Return answer in any order
 func groupAnagrams(strs []string) [][]string {
-	// find anagrams
-	// build arr of string arrs around anagrams as we find them
-	groups := [][]string{}
-
-	// sort alphabetically may be best course in this situation
-	// We can also check every char against every char but that requires work around for dups
 	groupMap := make(map[string][]string)
 	for _, word := range strs {
 		key := sortStrings(word)
 		groupMap[key] = append(groupMap[key], word)
+	}
+	
+	groups := [][]string{}
+	for _, group := range groupMap {
+		groups = append(groups, group)
 	}
 
 	return groups
@@ -48,3 +48,4 @@ func main() {
 	fmt.Println(groupAnagrams([]string{""}))
 	fmt.Println(groupAnagrams([]string{"a"}))
 }
+
