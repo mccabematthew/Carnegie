@@ -7,7 +7,7 @@
 | 08/04 | Contains Duplicate | Sort + Brute Force Array | Hash Set |
 | 08/05 | Valid Anagram | Brute Force + Remove Matched Character | Frequency Map |
 | 08/06 | Group Anagrams | Counting Sort + Map | Hash Map + Sorting |
-| 08/07 | Best Time to Buy and Sell Stock | TBD | One Pass |
+| 08/07 | Best Time to Buy and Sell Stock | One Pass | One Pass |
 | 08/08 | Valid Palindrome | TBD | Two Pointers |
 | 08/09 | Two Sum II - Input Array Is Sorted | TBD | Two Pointers |
 | 08/10 | Longest Substring Without Repeating Characters | TBD | Sliding Window |
